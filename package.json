@@ -19,7 +19,8 @@
     "storybook": "ng run taskbox:storybook",
     "build-storybook": "ng run taskbox:build-storybook",
     "init-msw": "msw init src/",
-    "test-storybook": "test-storybook"
+    "test-storybook": "test-storybook",
+    "chromatic": "npx chromatic --project-token=chpt_279cca6e4b10adf"
   },
   "private": true,
   "dependencies": {
@@ -52,6 +53,7 @@
     "@storybook/test": "^8.3.3",
     "@storybook/test-runner": "^0.21.3",
     "@types/jasmine": "~4.3.0",
+    "chromatic": "^11.26.1",
     "jasmine-core": "~4.5.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.1.0",
