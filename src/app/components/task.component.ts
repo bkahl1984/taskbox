@@ -33,6 +33,7 @@ import { Task } from '../models/task.model';
           id="title-{{ task?.id }}"
           name="title-{{ task?.id }}"
           placeholder="Input title"
+         style="background-color: red;"
         />
       </label>
       <button
@@ -46,6 +47,7 @@ import { Task } from '../models/task.model';
     </div>
   `,
 })
+
 export default class TaskComponent {
   /**
    * The shape of the task object
